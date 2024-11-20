@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navigation Menu | Vanilla JavaScript</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <a href="#" class="NS">NS.</a>
+    <nav>
+    <ul>
+      <li><a href="#Home">Home</a></li>
+      <li><a href="#About">About</a></li>
+      <li><a href="#Service">Services</a></li>
+      <li><a href="#Contact">Contact</a></li>
+      <li><a href="#Team">Team</a></li>
+    </ul>
+    </nav>
+  </header>
+  <img src="./bg3.jpg" alt="superman">
+  
+   <div class="hero">
+    <section class="banner"> 
+      <h1>Superman</h1>
+      <p>
+        Superman, one of the most iconic superheroes in popular culture, is a fictional character created by Jerry Siegel and Joe Shuster in 1938 for DC Comics. Born on the planet Krypton as Kal-El, he was sent to Earth as a baby before his home planet's destruction. Raised by the Kent family in Smallville and given the name Clark Kent, Superman possesses extraordinary abilities like superhuman strength, flight, invulnerability, heat vision, and super-speed, powered by Earth's yellow sun. As a symbol of hope and justice, he fights to protect humanity, often facing powerful enemies while maintaining his humble, human identity as a reporter. Superman represents ideals of truth, courage, and the eternal battle for good.
+      </p>
+      <p>
+        Superman is often regarded as the first modern superhero, debuting in Action Comics #1 in 1938. He was created during the Great Depression, embodying hope and resilience for a struggling world. Superman’s Kryptonian origin gives him abilities far beyond mortal men, such as heat vision, super breath, x-ray vision, and near-immortality, while his moral compass is shaped by the values instilled by his adoptive Earth parents, Jonathan and Martha Kent. He adopts the identity of Clark Kent, a mild-mannered journalist working at the Daily Planet in Metropolis, where he works alongside Lois Lane, his love interest and eventual wife.</p>
+      <p>
+        Superman’s iconic costume, featuring the blue suit, red cape, and the "S" shield on his chest, symbolizes his commitment to “truth, justice, and a better tomorrow.” His primary antagonist is Lex Luthor, a brilliant but ruthless businessman and scientist who represents greed and corruption. Superman also faces a wide range of enemies, from the intergalactic conqueror Brainiac to the monstrous Doomsday, who famously killed him in the 1992 Death of Superman storyline.
+
+        Beyond his heroic battles, Superman explores themes of dual identity, as he navigates his life as an alien trying to belong on Earth. He is a member of the Justice League, alongside other superheroes like Batman and Wonder Woman, furthering his mission to protect the universe. Through decades of comics, films, TV series, and animations, Superman has remained a cultural icon, representing the pinnacle of heroism, selflessness, and the belief that anyone can aspire to greatness.</p>
+
+        <h2>Thank You</h2>
+    </section>
+   </div>
+    
+    <script>
+    window.addEventListener('scroll', function() {
+      const header = document.querySelector('header');
+      header.classList.toggle('sticky', window.scrollY > 0);
+    });
+  </script>
+</body>
+</html>

@@ -34,7 +34,7 @@ nav ul {
 
 header.sticky {
   padding: 0.00001% 100px;
-  background-color: #fff;
+  background-color: hsla(0, 0%, 100%, 0.5);
   
 }
 

@@ -34,7 +34,7 @@ nav ul {
 
 header.sticky {
   padding: 0.00001% 100px;
-  background-color: hsla(0, 0%, 100%, 0.6)
+  background-color: rgba(248, 249, 249, 0.7)
   
 }
 
@@ -83,15 +83,15 @@ header.sticky ul li a {
   color: #000;
 }
 
-/* .banner {
+.banner {
   position:relative;
   margin-top: 0%;
-  width: 70%;
+  width: 90%;
   height: 150vh;
-  background: url('bg3.jpg') no-repeat center center;
+  background: url('bg3.jpg') no-repeat center;
   background-size: cover;
 
-} */
+}
 
 img{
   position:relative;
@@ -108,23 +108,37 @@ img{
 
 }
  h1{
-  color: white;
+  color: red;
   font-size: 3rem;
+  margin: 0 auto;
   position: relative;
   text-align: center;
+  background-color: yellow;
+  border-radius: 100px;
+  padding: 10px 0;
+  width: 25%;
+  margin-left: 550px;
+  margin-top: -15vh;
+  
  }
  h2{
   color: #1f11bc;
   font-size: 5rem;
   position: relative;
   text-align: center;
-  margin-top: 50vh;
+  margin-top: 30vh;
+  margin-bottom: 50px;
  }
 p{
   color: #10a106;
   font-family: 'Times New Roman', Times, serif;
   font-size: 1.5rem;
-  margin-top: 1%;
+  margin-top: 5vh;
+}
+div{
+  margin-top: 5vh;
+  text-align: justify;
+  margin: 20px;
 }
   
 

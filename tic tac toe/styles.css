@@ -4,12 +4,12 @@ body {
     margin-left: 50%;
     padding: 20px;
     background-color: #f7f7f7;
-    background-image: url('stars-13910.gif'); /* Replace with the actual path to your image */
-    background-size: cover; /* Ensures the image covers the entire background */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    margin: 0; /* Removes default margins */
-    height: 100vh; /* Ensures it covers the full viewport height */  
+    background-image: url('stars-13910.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
   } 
 img{
     position: 100%;

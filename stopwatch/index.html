@@ -7,20 +7,20 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="stopwatch">
-        <h1>Stopwatch</h1>
-        <div class="time-display">
+    <div class="stopwatch-container">
+        <h1 class="stopwatch-title">Stopwatch</h1>
+        <div class="stopwatch-display">
             <span id="minutes">00</span>:<span id="seconds">00</span>:<span id="milliseconds">00</span>
         </div>
-        <div class="buttons">
-            <button id="start">Start</button>
-            <button id="stop">Stop</button>
-            <button id="reset">Reset</button>
-            <button id="lap">Lap</button>
+        <div class="buttons-container">
+            <button id="start" class="button">Start</button>
+            <button id="stop" class="button">Stop</button>
+            <button id="reset" class="button">Reset</button>
+            <button id="lap" class="button">Lap</button>
         </div>
-        <div class="laps">
-            <h2>Laps</h2>
-            <ul id="laps-list"></ul>
+        <div class="laps-container">
+            <h2 class="laps-title">Laps</h2>
+            <ul id="laps-list" class="laps-list"></ul>
         </div>
     </div>
     <img src="stopwatch-8564_256.gif" alt="watch">
